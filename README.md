@@ -18,17 +18,17 @@ Column 4 = external uncertainty
 **Options:**
 There are three bandwidth choices on the selection knob:
 
-**Mean** – the average uncertainty from column 2. Good to get an overview of your data.
+- **Mean** – the average uncertainty from column 2. Good to get an overview of your data.
 
-**Std** – A common bandwidth estimator which is the standard deviation of ages (column 1) X number of ages to the -1/5 power. Bandwidth can be too wide for vary scattered datasets. Works well with low sample numbers.
+- **Std** – A common bandwidth estimator which is the standard deviation of ages (column 1) X number of ages to the -1/5 power. Bandwidth can be too wide for vary scattered datasets. Works well with low sample numbers.
 
-**MAD** – a custom narrow bandwidth estimator that does a better job of de-weighting outliers and extreme scatter. It is the mean absolute deviation of ages (column 1) divided by two, X number of ages to the -1/5 power. Bandwidth can be too narrow for tightly clustered datasets.  Works well with high sample numbers.
+- **MAD** – a custom narrow bandwidth estimator that does a better job of de-weighting outliers and extreme scatter. It is the mean absolute deviation of ages (column 1) divided by two, X number of ages to the -1/5 power. Bandwidth can be too narrow for tightly clustered datasets.  Works well with high sample numbers.
 
-**Select preferred Gaussian number** – Identify the Gauss that best fits you event from the plot or data table and enter the gauss number in the box and hit enter. This will highlight all of the ages that fall within two sigma of that Gauss peak.
+- **Select preferred Gaussian number** – Identify the Gauss that best fits you event from the plot or data table and enter the gauss number in the box and hit enter. This will highlight all of the ages that fall within two sigma of that Gauss peak.
 
-**Save Table Results** – This button saves the model fitment data and the Gaussian data as .csv files.
+- **Save Table Results** – This button saves the model fitment data and the Gaussian data as .csv files.
 
-**Save Main plot** – use the file drop down menu on the plot to save it as your preferred file type. It is strongly suggested that you stretch the figure vertically to the height of your screen as having four subplots compresses the vertical axis.
+- **Save Main plot** – use the file drop down menu on the plot to save it as your preferred file type. It is strongly suggested that you stretch the figure vertically to the height of your screen as having four subplots compresses the vertical axis.
 
 Stay safe and have fun!
 ____________________________________________________________________________________________________________________________________
