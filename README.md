@@ -1,4 +1,9 @@
 # CAAT
+**Developed by**
+Jason Dortch
+Jason.M.Dortch@uky.edu
+Kentucky Geologic Survey, UK, Kentucky
+
 **Summary**
 Cosmogenic Age Analysis Tool (CAAT) isolates skewness from chronology datasets by separating Gaussians from probability density to estimate even age.  
 
