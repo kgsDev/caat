@@ -1,7 +1,9 @@
 # CAAT
 **Developed by**
 Jason Dortch
+
 Jason.M.Dortch@uky.edu
+
 Kentucky Geologic Survey, UK, Kentucky
 
 **Summary**
