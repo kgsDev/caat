@@ -1,11 +1,11 @@
 # CAAT
 **Developed by**
-Jason Dortch
-Jason.M.Dortch@uky.edu
-Kentucky Geologic Survey, University of Kentucky, Kentucky
+- Jason Dortch
+- Jason.M.Dortch@uky.edu
+- Kentucky Geologic Survey, University of Kentucky, Kentucky
 
 **Summary**
-Cosmogenic Age Analysis Tool (CAAT) isolates skewness from chronology datasets by separating Gaussians from probability density to estimate even age.  
+Cosmogenic Age Analysis Tool (CAAT) isolates skewness from chronology datasets by separating Gaussians from probability density to estimate even age.
 
 **Installation**
 The CAAT application was develop in the MATLAB environment and is compiled for standalone application without the need to purchasing MATLAB. If you do not have a copy of MATLAB, a prompt will appear to download MATLAB Runtime, which is ~1GB in size. A prompt about installing an application from an unknown publisher will likely appear. You must click yes to continue with installation. We recommend installing this application into a folder on your desktop or in your project folder. This is due to data table save function, which writes to the installation folder. Installing CAAT in a System32 folder will block write permissions and you will be unable to save your results.
