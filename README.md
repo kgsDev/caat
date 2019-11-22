@@ -3,17 +3,17 @@
 Cosmogenic Age Analysis Tool (CAAT) isolates skewness from chronology datasets by separating Gaussians from probability density to estimate even age.  
 
 **Installation**
-The CAAT application was develop in the MATLAB environment and is compiled for standalone application without the need to purchasing MATLAB. If you do not have a copy of MATLAB, a prompt will appear to download MATLAB Runtime, which is ~ 1GB in size. A prompt about installing an application from an unknown publisher will likely appear. You must click yes to continue with installation. We recommend installing this application into a folder on your desktop or in your project folder. This is due to data table save function, which writes to the installation folder. Installing CAAT in a System32 folder will block write permissions and you will be unable to save your results.
+The CAAT application was develop in the MATLAB environment and is compiled for standalone application without the need to purchasing MATLAB. If you do not have a copy of MATLAB, a prompt will appear to download MATLAB Runtime, which is ~1GB in size. A prompt about installing an application from an unknown publisher will likely appear. You must click yes to continue with installation. We recommend installing this application into a folder on your desktop or in your project folder. This is due to data table save function, which writes to the installation folder. Installing CAAT in a System32 folder will block write permissions and you will be unable to save your results.
 
 **Description**
-CAAT was develop in the MATLAB environment to isolate skewness from cosmogenic and cosmogenically calibrated Schmidt hammer exposure ages. It’s utilized the ksdensity function to calculate a probability density estimate from chronology data and the nlinfit function to isolate Gaussians based on a Monte Carlo approach.  
+CAAT was develop in the MATLAB environment to isolate skewness from cosmogenic and cosmogenically calibrated Schmidt hammer exposure ages. It utilized the ksdensity function to calculate a probability density estimate from chronology data and the nlinfit function to isolate Gaussians based on a Monte Carlo approach.
 
 **What you need:**
-A .txt file with two columns:
-Column 1 = moraine name
-Column 2 = age
-Column 3 = internal uncertainty
-Column 4 = external uncertainty
+.txt file with four columns:
+- Column 1 = moraine name
+- Column 2 = age
+- Column 3 = internal uncertainty
+- Column 4 = external uncertainty
 
 **Options:**
 There are three bandwidth choices on the selection knob:
